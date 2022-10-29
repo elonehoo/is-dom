@@ -1,7 +1,7 @@
 import isObject from "@elonehoo/is-object"
 import isWindow from "@elonehoo/is-window"
 
-function isDom(val:any) {
+function isDom(val:any):boolean {
 	if (!isObject(val) || !isWindow(window) || !(`Node` in window)) {
 		return false
 	}

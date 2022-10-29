@@ -2,6 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@elonehoo/eslint-config': 2.0.0
+  '@elonehoo/is-object': ^0.0.1
+  '@elonehoo/is-window': ^0.0.1
   '@elonehoo/rimraf': ^0.0.1
   '@elonehoo/vite-plugin-type-ts': ^0.0.1
   '@types/node': 18.11.7
@@ -13,6 +15,10 @@ specifiers:
   typescript: 4.8.4
   vite: 3.2.0
   vitest: 0.24.3
+
+dependencies:
+  '@elonehoo/is-object': 0.0.1
+  '@elonehoo/is-window': 0.0.1
 
 devDependencies:
   '@elonehoo/eslint-config': 2.0.0_wyqvi574yv7oiwfeinomdzmc3m
@@ -155,6 +161,14 @@ packages:
       - supports-color
       - typescript
     dev: true
+
+  /@elonehoo/is-object/0.0.1:
+    resolution: {integrity: sha512-qVPtcZ0Oawlrn9RaUqCKjKkT1Sot9syxPBoi6x3i6dd96WSpBA598+noIKIki2pjxzU3Uwq4HPkJR9X1ZKHddw==}
+    dev: false
+
+  /@elonehoo/is-window/0.0.1:
+    resolution: {integrity: sha512-lOKGi6ESyrz8VucAFqms4XdpRFpwdDUNSBUI8Wn7hnWpu0ZyGPaQY0Ce1wCPCu/9XNGP1PN1fn3rqB+9qUm+PQ==}
+    dev: false
 
   /@elonehoo/rimraf/0.0.1:
     resolution: {integrity: sha512-C3KhcyaMRMSyq76sOAJl7dBefnA65k+MwLm9c43+DGSXaaqB/dv2Aih7kzJnsx81nuaAAi0PK2Zd8AARbOqqQQ==}

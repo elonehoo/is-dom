@@ -1,6 +1,6 @@
 {
   "name": "@elonehoo/is-dom",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "type": "module",
   "description": "Check if the given object is a dom node.",
